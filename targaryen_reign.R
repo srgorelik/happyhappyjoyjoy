@@ -3,7 +3,7 @@ library(tidyr)
 library(ggplot2)
 library(gameofthrones)
 library(showtext)
-font_add('got', '/home/sgorelik/.local/share/fonts/Game of Thrones.ttf')
+font_add('got', '~/.local/share/fonts/Game of Thrones.ttf')
 showtext_auto()
 
 df <- read.csv(
